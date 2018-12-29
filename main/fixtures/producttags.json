@@ -1,0 +1,29 @@
+[
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "Linux",
+    "slug": "linux",
+    "description": "Linux related books.",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "Open Source",
+    "slug": "open-source",
+    "description": "Open source related books.",
+    "active": true
+  }
+},
+{
+  "model": "main.producttag",
+  "fields": {
+    "name": "History",
+    "slug": "history",
+    "description": "History related books.",
+    "active": true
+  }
+}
+]
