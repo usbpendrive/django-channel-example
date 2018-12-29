@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 import environ
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-root = environ.Path(__file__) - 3
+root = environ.Path(__file__) - 2
 env = environ.Env(DEBUG=(bool, False))
 environ.Env.read_env()
 
@@ -122,10 +122,9 @@ USE_TZ = True
 
 public_root = root.path('public/')
 
-MEDIA_ROOT = public_root('media')
+MEDIA_ROOT = root.path('media/')
 MEDIA_URL = '/media/'
 
-STATIC_ROOT = public_root('static')
 STATIC_URL = '/static/'
 
 if not DEBUG:
