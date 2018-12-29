@@ -128,6 +128,8 @@ MEDIA_URL = '/media/'
 STATIC_ROOT = public_root('static')
 STATIC_URL = '/static/'
 
+EMAIL_CONFIG = env.email_url('EMAIL_URL', default='smtp://user@:password@localhost:25')
+
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
