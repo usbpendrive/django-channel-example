@@ -9,6 +9,7 @@ verify_ssl = true
 django = "*"
 psycopg2 = {path = "c:/Users/ferry/Downloads/wheels/psycopg2-2.7.6.1-cp37-cp37m-win_amd64.whl"}
 django-environ = "*"
+pillow = "*"
 
 [requires]
 python_version = "3.7"
